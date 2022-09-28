@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Disney+ Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <img
+        src="https://raw.githubusercontent.com/Pranav-8bit/hotstar/main/images/logo.png"
+        class="brand-logo"
+        alt="logo og disney clone"
+      />
+      <ul class="nav-links">
+        <li class="nav-items"><a href="#">TV</a></li>
+        <li class="nav-items"><a href="#">Movies</a></li>
+        <li class="nav-items"><a href="#">Sports</a></li>
+        <li class="nav-items"><a href="#">Premium</a></li>
+      </ul>
+      <div class="right-container">
+        <input type="text" class="search-box" placeholder="Search..." />
+        <button class="sub-btn">Subscribe</button>
+        <a href="#" class="login-link">Login</a>
+      </div>
+    </nav>
+    <div class="carousel-container">
+      <div class="carousel">
+        <!--<div class="slider">
+          <div class="slide-content">
+            <h1 class="movie-title">Loki</h1>
+            <p class="movie-descc">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam
+              saepe perspiciatis earum? descerunt nesciunt maiores, illum nobis
+              sequi ducimus, quia ratione obcaecati, in unde modi fugiat
+              voluptatum sunt dolor illo?
+            </p>
+          </div>
+          <img src="images/slider 1.PNG" alt="movie1" />
+        </div>
+      --></div>
+    </div>
+    <div class="video-card-container">
+      <div class="video-card">
+        <img
+          src="https://github.com/Pranav-8bit/hotstar/blob/main/images/disney.PNG"
+          class="video-card-img"
+          alt=""
+        />
+        <video
+          src="https://github.com/PraveenRaoVP/hotstar-clone/blob/main/videos/disney.mp4?raw=true"
+          muted
+          loop
+          class="card-video"
+        ></video>
+      </div>
+      <div class="video-card">
+        <img
+          src="https://github.com/Pranav-8bit/hotstar/blob/main/images/pixar.PNG"
+          class="video-card-img"
+          alt=""
+        />
+        <video
+          src="https://github.com/PraveenRaoVP/hotstar-clone/blob/main/videos/pixar.mp4?raw=true"
+          muted
+          loop
+          class="card-video"
+        ></video>
+      </div>
+      <div class="video-card">
+        <img
+          src="https://github.com/Pranav-8bit/hotstar/blob/main/images/marvel.PNG"
+          class="video-card-img"
+          alt=""
+        />
+        <video
+          src="https://github.com/Pranav-8bit/hotstar/blob/main/videos/marvel.mp4?raw=true"
+          muted
+          loop
+          class="card-video"
+        ></video>
+      </div>
+      <div class="video-card">
+        <img
+          src="https://github.com/Pranav-8bit/hotstar/blob/main/images/star-wars.PNG"
+          class="video-card-img"
+          alt=""
+        />
+        <video
+          src="https://github.com/Pranav-8bit/hotstar/blob/main/videos/star-war.mp4?raw=true"
+          muted
+          loop
+          class="card-video"
+        ></video>
+      </div>
+      <div class="video-card">
+        <img
+          src="https://github.com/Pranav-8bit/hotstar/blob/main/images/geographic.PNG?"
+          class="video-card-img"
+          alt=""
+        />
+        <video
+          src="https://github.com/Pranav-8bit/hotstar/blob/main/videos/geographic.mp4?raw=true"
+          muted
+          loop
+          class="card-video"
+        ></video>
+      </div>
+    </div>
+
+    <h1 class="title">recommended for you</h1>
+    <div class="movies-list">
+      <button class="pre-btn">
+        <img
+          src="https://raw.githubusercontent.com/Pranav-8bit/hotstar/main/images/pre.png"
+          alt=""
+        />
+      </button>
+      <button class="nxt-btn">
+        <img
+          src="https://raw.githubusercontent.com/Pranav-8bit/hotstar/main/images/nxt.png"
+          alt=""
+        />
+      </button>
+      <div class="card-container">
+        <div class="card">
+          <img
+            src="https://github.com/Pranav-8bit/hotstar/blob/main/images/poster%201.png?raw=true"
+            class="card-img"
+            alt=""
+          />
+          <div class="card-body">
+            <h2 class="name">Loki</h2>
+            <h6 class="desc">Lorem ipsum dolor sit consectetur elit.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://github.com/Pranav-8bit/hotstar/blob/main/images/poster%202.png?raw=true"
+            class="card-img"
+            alt=""
+          />
+          <div class="card-body">
+            <h2 class="name">Mulan</h2>
+            <h6 class="desc">Lorem ipsum dolor sit consectetur elit.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://github.com/Pranav-8bit/hotstar/blob/main/images/poster%203.png?raw=true"
+            class="card-img"
+            alt=""
+          />
+          <div class="card-body">
+            <h2 class="name">the falcon and the winter shoulder</h2>
+            <h6 class="desc">Lorem ipsum dolor sit consectetur elit.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://github.com/Pranav-8bit/hotstar/blob/main/images/poster%204.png?raw=true"
+            class="card-img"
+            alt=""
+          />
+          <div class="card-body">
+            <h2 class="name">Avengers Endgame</h2>
+            <h6 class="desc">Lorem ipsum dolor sit consectetur elit.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://tse3.mm.bing.net/th?id=OIP.DSsfccYDa8lrMdIPIpRnwQHaLH&pid=Api&P=0&w=108&h=162"
+            class="card-img"
+            alt=""
+          />
+          <div class="card-body">
+            <h2 class="name">Thor Ragnarok</h2>
+            <h6 class="desc">Lorem ipsum dolor sit consectetur elit.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://github.com/Pranav-8bit/hotstar/blob/main/images/poster%206.png?raw=true"
+            class="card-img"
+            alt=""
+          />
+          <div class="card-body">
+            <h2 class="name">Avengers</h2>
+            <h6 class="desc">Lorem ipsum dolor sit consectetur elit.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://tse1.mm.bing.net/th?id=OIP.xp46YLYr3uqCRQXMxjUt7gHaEK&pid=Api&P=0&w=306&h=172"
+            class="card-img"
+            alt=""
+          />
+          <div class="card-body">
+            <h2 class="name">ok computer</h2>
+            <h6 class="desc">Lorem ipsum dolor sit consectetur elit.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://github.com/Pranav-8bit/hotstar/blob/main/images/poster%208.png?raw=true"
+            class="card-img"
+            alt=""
+          />
+          <div class="card-body">
+            <h2 class="name">Soul</h2>
+            <h6 class="desc">Lorem ipsum dolor sit consectetur elit.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://tse4.mm.bing.net/th?id=OIP.UpdtvpUWvoXdem_UJHDIiAHaJQ&pid=Api&P=0&w=136&h=170"
+            class="card-img"
+            alt=""
+          />
+          <div class="card-body">
+            <h2 class="name">Dil Bechara</h2>
+            <h6 class="desc">Lorem ipsum dolor sit consectetur elit.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://github.com/Pranav-8bit/hotstar/blob/main/images/poster%2010.png?raw=true"
+            class="card-img"
+            alt=""
+          />
+          <div class="card-body">
+            <h2 class="name">Luca</h2>
+            <h6 class="desc">Lorem ipsum dolor sit consectetur elit.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://github.com/Pranav-8bit/hotstar/blob/main/images/poster%2011.png?raw=true"
+            class="card-img"
+            alt=""
+          />
+          <div class="card-body">
+            <h2 class="name">Ford v Ferrari</h2>
+            <h6 class="desc">Lorem ipsum dolor sit consectetur elit.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://github.com/Pranav-8bit/hotstar/blob/main/images/poster%2012.png?raw=true"
+            class="card-img"
+            alt=""
+          />
+          <div class="card-body">
+            <h2 class="name">Dark Phoenix</h2>
+            <h6 class="desc">Lorem ipsum dolor sit consectetur elit.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://images.indianexpress.com/2019/11/Tanhaji-003.jpg"
+            class="card-img"
+            alt=""
+          />
+          <div class="card-body">
+            <h2 class="name">TanHaji</h2>
+            <h6 class="desc">Lorem ipsum dolor sit consectetur elit.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://wallpapersboom.net/wp-content/uploads/2015/04/3221_the_office_tv_series.jpg"
+            class="card-img"
+            alt=""
+          />
+          <div class="card-body">
+            <h2 class="name">The Office</h2>
+            <h6 class="desc">Lorem ipsum dolor sit consectetur elit.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://3.bp.blogspot.com/-SjK-jsYCIEA/XPn9xbgy3RI/AAAAAAAAH0E/8cR3JOvItpohFCZjp9DEK0OBXkQc4pvmwCLcBGAs/s1600/Euphoria%2BPoster.jpg"
+            class="card-img"
+            alt=""
+          />
+          <div class="card-body">
+            <h2 class="name">Euphoria</h2>
+            <h6 class="desc">Lorem ipsum dolor sit consectetur elit.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h1 class="title">popular</h1>
+    <div class="movies-list">
+      <button class="pre-btn"><img src="./images/pre.png" alt="" /></button>
+      <button class="nxt-btn"><img src="./images/nxt.png" alt="" /></button>
+      <div class="card-container">
+        <div class="card">
+          <img
+            src="https://github.com/Pranav-8bit/hotstar/blob/main/images/poster%201.png?raw=true"
+            class="card-img"
+            alt=""
+          />
+          <div class="card-body">
+            <h2 class="name">Loki</h2>
+            <h6 class="desc">Lorem ipsum dolor sit consectetur elit.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://github.com/Pranav-8bit/hotstar/blob/main/images/poster%202.png?raw=true"
+            class="card-img"
+            alt=""
+          />
+          <div class="card-body">
+            <h2 class="name">Mulan</h2>
+            <h6 class="desc">Lorem ipsum dolor sit consectetur elit.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://github.com/Pranav-8bit/hotstar/blob/main/images/poster%203.png?raw=true"
+            class="card-img"
+            alt=""
+          />
+          <div class="card-body">
+            <h2 class="name">the falcon and the winter shoulder</h2>
+            <h6 class="desc">Lorem ipsum dolor sit consectetur elit.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://github.com/Pranav-8bit/hotstar/blob/main/images/poster%204.png?raw=true"
+            class="card-img"
+            alt=""
+          />
+          <div class="card-body">
+            <h2 class="name">Avengers Endgame</h2>
+            <h6 class="desc">Lorem ipsum dolor sit consectetur elit.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://tse3.mm.bing.net/th?id=OIP.DSsfccYDa8lrMdIPIpRnwQHaLH&pid=Api&P=0&w=108&h=162"
+            class="card-img"
+            alt=""
+          />
+          <div class="card-body">
+            <h2 class="name">Thor Ragnarok</h2>
+            <h6 class="desc">Lorem ipsum dolor sit consectetur elit.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://github.com/Pranav-8bit/hotstar/blob/main/images/poster%206.png?raw=true"
+            class="card-img"
+            alt=""
+          />
+          <div class="card-body">
+            <h2 class="name">Avengers</h2>
+            <h6 class="desc">Lorem ipsum dolor sit consectetur elit.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://tse1.mm.bing.net/th?id=OIP.xp46YLYr3uqCRQXMxjUt7gHaEK&pid=Api&P=0&w=306&h=172"
+            class="card-img"
+            alt=""
+          />
+          <div class="card-body">
+            <h2 class="name">Ok Computer</h2>
+            <h6 class="desc">Lorem ipsum dolor sit consectetur elit.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://github.com/Pranav-8bit/hotstar/blob/main/images/poster%208.png?raw=true"
+            class="card-img"
+            alt=""
+          />
+          <div class="card-body">
+            <h2 class="name">Soul</h2>
+            <h6 class="desc">Lorem ipsum dolor sit consectetur elit.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://tse4.mm.bing.net/th?id=OIP.UpdtvpUWvoXdem_UJHDIiAHaJQ&pid=Api&P=0&w=136&h=170"
+            class="card-img"
+            alt=""
+          />
+          <div class="card-body">
+            <h2 class="name">Dil Bechara</h2>
+            <h6 class="desc">Lorem ipsum dolor sit consectetur elit.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://github.com/Pranav-8bit/hotstar/blob/main/images/poster%2010.png?raw=true"
+            class="card-img"
+            alt=""
+          />
+          <div class="card-body">
+            <h2 class="name">Luca</h2>
+            <h6 class="desc">Lorem ipsum dolor sit consectetur elit.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://github.com/Pranav-8bit/hotstar/blob/main/images/poster%2011.png?raw=true"
+            class="card-img"
+            alt=""
+          />
+          <div class="card-body">
+            <h2 class="name">Ford v Ferrari</h2>
+            <h6 class="desc">Lorem ipsum dolor sit consectetur elit.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://tse4.mm.bing.net/th?id=OIP.UCtbfpW23UxBo7vJzR6jVQHaK-&pid=Api&P=0&w=121&h=180"
+            class="card-img"
+            alt=""
+          />
+          <div class="card-body">
+            <h2 class="name">Dark Phoenix</h2>
+            <h6 class="desc">Lorem ipsum dolor sit consectetur elit.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://images.indianexpress.com/2019/11/Tanhaji-003.jpg"
+            class="card-img"
+            alt=""
+          />
+          <div class="card-body">
+            <h2 class="name">TanHaji</h2>
+            <h6 class="desc">Lorem ipsum dolor sit consectetur elit.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://wallpapersboom.net/wp-content/uploads/2015/04/3221_the_office_tv_series.jpg"
+            class="card-img"
+            alt=""
+          />
+          <div class="card-body">
+            <h2 class="name">The Office</h2>
+            <h6 class="desc">Lorem ipsum dolor sit consectetur elit.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://3.bp.blogspot.com/-SjK-jsYCIEA/XPn9xbgy3RI/AAAAAAAAH0E/8cR3JOvItpohFCZjp9DEK0OBXkQc4pvmwCLcBGAs/s1600/Euphoria%2BPoster.jpg"
+            class="card-img"
+            alt=""
+          />
+          <div class="card-body">
+            <h2 class="name">Euphoria</h2>
+            <h6 class="desc">Lorem ipsum dolor sit consectetur elit.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h1 class="title">new & upcoming</h1>
+    <div class="movies-list">
+      <button class="pre-btn"><img src="./images/pre.png" alt="" /></button>
+      <button class="nxt-btn"><img src="./images/nxt.png" alt="" /></button>
+      <div class="card-container">
+        <div class="card">
+          <img
+            src="https://github.com/Pranav-8bit/hotstar/blob/main/images/poster%201.png?raw=true"
+            class="card-img"
+            alt=""
+          />
+          <div class="card-body">
+            <h2 class="name">Loki</h2>
+            <h6 class="desc">Lorem ipsum dolor sit consectetur elit.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://github.com/Pranav-8bit/hotstar/blob/main/images/poster%202.png?raw=true"
+            class="card-img"
+            alt=""
+          />
+          <div class="card-body">
+            <h2 class="name">Mulan</h2>
+            <h6 class="desc">Lorem ipsum dolor sit consectetur elit.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://tse1.mm.bing.net/th?id=OIP.IIaa82r6ChmwVz9-VRlPmwHaEK&pid=Api&P=0&w=302&h=169"
+            class="card-img"
+            alt=""
+          />
+          <div class="card-body">
+            <h2 class="name">Chichore</h2>
+            <h6 class="desc">Lorem ipsum dolor sit consectetur elit.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://github.com/Pranav-8bit/hotstar/blob/main/images/poster%204.png?raw=true"
+            class="card-img"
+            alt=""
+          />
+          <div class="card-body">
+            <h2 class="name">Avengers Endgame</h2>
+            <h6 class="desc">Lorem ipsum dolor sit consectetur elit.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://github.com/Pranav-8bit/hotstar/blob/main/images/poster%205.png?raw=true"
+            class="card-img"
+            alt=""
+          />
+          <div class="card-body">
+            <h2 class="name">Thor Ragnarok</h2>
+            <h6 class="desc">Lorem ipsum dolor sit consectetur elit.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://github.com/Pranav-8bit/hotstar/blob/main/images/poster%206.png?raw=true"
+            class="card-img"
+            alt=""
+          />
+          <div class="card-body">
+            <h2 class="name">Avengers</h2>
+            <h6 class="desc">Lorem ipsum dolor sit consectetur elit.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://tse3.mm.bing.net/th?id=OIP.2BG0RKGsj303aLtiV7hXdQHaHa&pid=Api&P=0&w=175&h=175"
+            class="card-img"
+            alt=""
+          />
+          <div class="card-body">
+            <h2 class="name">Ok Computer</h2>
+            <h6 class="desc">Lorem ipsum dolor sit consectetur elit.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://github.com/Pranav-8bit/hotstar/blob/main/images/poster%208.png?raw=true"
+            class="card-img"
+            alt=""
+          />
+          <div class="card-body">
+            <h2 class="name">Soul</h2>
+            <h6 class="desc">Lorem ipsum dolor sit consectetur elit.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://1.bp.blogspot.com/-yTsO6mZmY8w/XvnqJaVAxrI/AAAAAAABH3s/LClY0xxtclAsb_eWbWMbdrrtVViCfXmmgCLcBGAsYHQ/s1600/Dil-Bechara-Poster.jpg"
+            class="card-img"
+            alt=""
+          />
+          <div class="card-body">
+            <h2 class="name">Dil Bechara</h2>
+            <h6 class="desc">Lorem ipsum dolor sit consectetur elit.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://github.com/Pranav-8bit/hotstar/blob/main/images/poster%2010.png?raw=true"
+            class="card-img"
+            alt=""
+          />
+          <div class="card-body">
+            <h2 class="name">Luca</h2>
+            <h6 class="desc">Lorem ipsum dolor sit consectetur elit.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://github.com/Pranav-8bit/hotstar/blob/main/images/poster%2011.png?raw=true"
+            class="card-img"
+            alt=""
+          />
+          <div class="card-body">
+            <h2 class="name">Ford v Ferrari</h2>
+            <h6 class="desc">Lorem ipsum dolor sit consectetur elit.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://github.com/Pranav-8bit/hotstar/blob/main/images/poster%2012.png?raw=true"
+            class="card-img"
+            alt=""
+          />
+          <div class="card-body">
+            <h2 class="name">Dark Phoenix</h2>
+            <h6 class="desc">Lorem ipsum dolor sit consectetur elit.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://images.indianexpress.com/2019/11/Tanhaji-003.jpg"
+            class="card-img"
+            alt=""
+          />
+          <div class="card-body">
+            <h2 class="name">TanHaji</h2>
+            <h6 class="desc">Lorem ipsum dolor sit consectetur elit.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://tse2.mm.bing.net/th?id=OIP.1PtwhdC9GJHcLjh8q7OqbAHaJG&pid=Api&P=0&w=142&h=175"
+            class="card-img"
+            alt=""
+          />
+          <div class="card-body">
+            <h2 class="name">The Office</h2>
+            <h6 class="desc">Lorem ipsum dolor sit consectetur elit.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://tse4.mm.bing.net/th?id=OIP.6dObqzXv7P0wMFctH1kErAHaLH&pid=Api&P=0&w=120&h=181"
+            class="card-img"
+            alt=""
+          />
+          <div class="card-body">
+            <h2 class="name">Euphoria</h2>
+            <h6 class="desc">Lorem ipsum dolor sit consectetur elit.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js" async></script>
+  </body>
+</html>
